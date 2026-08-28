@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/KhanhTQ-Organization/com.ktgame.utils.findreference2/compare/v1.0.1...v1.0.2) (2026-08-28)
+
+
+### Bug Fixes
+
+* update find ([59ba1db](https://github.com/KhanhTQ-Organization/com.ktgame.utils.findreference2/commit/59ba1db6ac77c2e0d4f00ec0c5b8d83080b99115))
+
 ## [1.0.1](https://github.com/KhanhTQ-Organization/com.ktgame.utils.findreference2/compare/v1.0.0...v1.0.1) (2026-08-21)
 
 
