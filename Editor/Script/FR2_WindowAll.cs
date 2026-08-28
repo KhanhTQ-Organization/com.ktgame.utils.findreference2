@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -16,7 +16,7 @@ namespace vietlabs.fr2
 	public class FR2_WindowAll : FR2_WindowBase, IHasCustomMenu
 	{
 
-		[MenuItem("Window/Find Reference 2")]
+		[MenuItem("Ktgame/Find Reference 2")]
 		private static void ShowWindow()
 		{
 			var _window = CreateInstance<FR2_WindowAll>();

@@ -1,4 +1,4 @@
-﻿using System.Globalization;
+using System.Globalization;
 //#define FR2_DEBUG_BRACE_LEVEL
 //#define FR2_DEBUG_SYMBOL
 //#define FR2_DEBUG
@@ -269,10 +269,12 @@ namespace vietlabs.fr2
 				if (importer is TextureImporter)
 				{
 					var tImporter = importer as TextureImporter;
+#pragma warning disable 0618
 					if (tImporter.qualifiesForSpritePacking)
 					{
 						m_atlas = tImporter.spritePackingTag;
 					}
+#pragma warning restore 0618
 				}
 			}
 			
